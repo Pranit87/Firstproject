@@ -1,14 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
-import NavbarComp from './Components/NavbarComp';
+import React from 'react';
+import {Route,Switch} from "react-router-dom";
+import About from './Components/About';
+import Contact from './Components/Forms';
+import Home from './Components/Home';
 
-function App() {
+
+const App = () => {
   return (
     <div>
-      <NavbarComp/>
+      <Switch>
+        <Route path = "/About" component = {About}/>
+
+      </Switch>
+      {/* <About/>
+      <Contact/> */}
+
     </div>
   );
 }
-
+ 
 export default App;
