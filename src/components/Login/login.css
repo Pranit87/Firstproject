@@ -1,0 +1,129 @@
+.login {
+  background: url(./background2.png);
+  background-size: cover;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-position: center;
+}
+
+.sign-in-color-custom {
+  color: #0448a4;
+  font-size: 13px;
+}
+
+.back-color-custom {
+  background: #2e5caf; /* Old browsers */
+
+  background: -moz-linear-gradient(
+    -45deg,
+    #2e5caf 0%,
+    #061b5a 100%
+  ); /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(
+    -45deg,
+    #2e5caf 0%,
+    #061b5a 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(
+    135deg,
+    #2e5caf 0%,
+    #061b5a 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e5caf', endColorstr='#061b5a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.form-check-label {
+  font-size: 15px;
+}
+
+/* .image {
+  width: 800px;
+  height: 460px;
+} */
+
+.login-font-size {
+  font-size: 14px;
+}
+.ul-style-login {
+  list-style: none;
+}
+
+.li-style-login::before {
+  content: "\2022";
+  color: #ffc107;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+@media screen and (min-width: 768px) {
+  .sign-in-custom {
+    max-width: 70%;
+    margin-top: 500px;
+  }
+  /* .vats-custom {
+    margin-left: 230px;
+  } */
+  .border-custom {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+  }
+  .border-custom1 {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .border-custom1 {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+  }
+}
+
+.mainLoginInput {
+  font-family: FontAwesome;
+}
+
+.checkbox input[type="checkbox"] {
+  outline: 2px solid #cccccc;
+  margin-left: 1.5em;
+  padding: 0;
+  outline-offset: -1px;
+}
+
+.powered-by-line {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+.powered-by-line span {
+  background: #2e5caf;
+  padding: 0 10px;
+}
+
+.flex-grow-1 {
+  margin-top: 33px;
+  border-top: 2px solid #73b3e8;
+}
+
+.eye-icon {
+  margin-left: -30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.input-style {
+  display: flex;
+}
+
+.danger {
+  color: red;
+  font-size: small;
+}

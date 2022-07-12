@@ -1,0 +1,35 @@
+.clientContainer {
+  padding-left: 1.5rem;
+}
+.crmCol {
+  color: #ffffff;
+  font-family: Calibri;
+  font-size: 24px;
+  font-weight: bold;
+}
+.crmRow {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.clients-client-contacts-meetin {
+  color: #ffffff;
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: bold;
+}
+.add-client {
+  color: #0f5598;
+  font-family: Calibri;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 36px;
+  padding-bottom: 40px;
+}
+.vl {
+  border-left: 2px solid grey;
+  width: 2px;
+  height: 15px;
+  margin-top: 5px;
+}

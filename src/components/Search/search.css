@@ -1,0 +1,52 @@
+.res-Text {
+  color: #333333;
+  font-family: Calibri;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+.text-black {
+  color: #333333;
+  font-family: Calibri;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.experience {
+  background-color: #dddddd;
+}
+.resume-wrapper {
+  padding: 20px;
+  box-shadow: 0 0 16px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.table td {
+  border-bottom: 1px solid #dee2e6;
+}
+.table td svg {
+  margin-right: 38px;
+  display: block;
+}
+.table-hover > tbody > tr:hover > td:last-child > span.showOnHover {
+  padding-top: 5px;
+  display: flex;
+  cursor: pointer;
+}
+.table-hover > tbody > tr:hover > td {
+  background-color: #dddddd;
+}
+
+.table-hover > tbody > tr > td:last-child > span.showOnHover {
+  display: none;
+}
+.contact {
+  display: block;
+}
+.tableFixedLayout {
+  table-layout: fixed;
+}
+.wordWrap {
+  word-break: break-word;
+}

@@ -1,0 +1,281 @@
+{
+  "employeemuster": [
+    {
+      "id": "01",
+      "name": "Mark",
+      "contact": "Mark@yahoo.co.in",
+      "client": "Facebook",
+      "w": "CA",
+      "PR": "25",
+      "BR": "34.25",
+      "StarttoEndDate": "Aug-27-2018 to Dec-26-2018"
+    },
+    {
+      "id": "02",
+      "name": "John",
+      "contact": "john@gmail.com",
+      "client": "Google",
+      "w": "NY",
+      "PR": "25",
+      "BR": "34.25",
+      "StarttoEndDate": "Aug-27-2018 to Dec-26-2018"
+    },
+    {
+      "id": "03",
+      "name": "Mary",
+      "contact": "Mary@gmail.com",
+      "client": "Google",
+      "w": "NY",
+      "PR": "25",
+      "BR": "34.25",
+      "StarttoEndDate": "Aug-27-2018 to Dec-26-2018"
+    },
+    {
+      "id": "04",
+      "name": "Kate",
+      "contact": "Kate@gmail.com",
+      "client": "Google",
+      "w": "NY",
+      "PR": "25",
+      "BR": "34.25",
+      "StarttoEndDate": "Aug-27-2018 to Dec-26-2018"
+    },
+    {
+      "id": "05",
+      "name": "Joseph",
+      "contact": "joseph@gmail.com",
+      "client": "Google",
+      "w": "NY",
+      "PR": "25",
+      "BR": "34.25",
+      "StarttoEndDate": "Aug-27-2018 to Dec-26-2018"
+    }
+  ],
+
+  "hiddentable": [
+    {
+      "adp": "01",
+      "visa": "Mark",
+      "wccode": "Mark@yahoo.co.in",
+      "wcrate": "Facebook",
+      "hasmedical": "CA",
+      "medstartdate": "25",
+      "medenddate": "34.25",
+      "workaddress": "California",
+      "resiaddress": "Fremont",
+      "comments": "None",
+      "approvalreqd": "Yes",
+      "approvalemail": "mlogs@gmail.com",
+      "vcare": "NA",
+      "cgs": "NA"
+    },
+    {
+      "adp": "02",
+      "visa": "Mark",
+      "wccode": "Mark@yahoo.co.in",
+      "wcrate": "Facebook",
+      "hasmedical": "CA",
+      "medstartdate": "25",
+      "medenddate": "34.25",
+      "workaddress": "California",
+      "resiaddress": "Fremont",
+      "comments": "None",
+      "approvalreqd": "Yes",
+      "approvalemail": "mlogs@gmail.com",
+      "vcare": "NA",
+      "cgs": "NA"
+    },
+    {
+      "adp": "03",
+      "visa": "Mark",
+      "wccode": "Mark@yahoo.co.in",
+      "wcrate": "Facebook",
+      "hasmedical": "CA",
+      "medstartdate": "25",
+      "medenddate": "34.25",
+      "workaddress": "California",
+      "resiaddress": "Fremont",
+      "comments": "None",
+      "approvalreqd": "Yes",
+      "approvalemail": "mlogs@gmail.com",
+      "vcare": "NA",
+      "cgs": "NA"
+    },
+    {
+      "adp": "04",
+      "visa": "Mark",
+      "wccode": "Mark@yahoo.co.in",
+      "wcrate": "Facebook",
+      "hasmedical": "CA",
+      "medstartdate": "25",
+      "medenddate": "34.25",
+      "workaddress": "California",
+      "resiaddress": "Fremont",
+      "comments": "None",
+      "approvalreqd": "Yes",
+      "approvalemail": "mlogs@gmail.com",
+      "vcare": "NA",
+      "cgs": "NA"
+    },
+    {
+      "adp": "05",
+      "visa": "Mark",
+      "wccode": "Mark@yahoo.co.in",
+      "wcrate": "Facebook",
+      "hasmedical": "CA",
+      "medstartdate": "25",
+      "medenddate": "34.25",
+      "workaddress": "California",
+      "resiaddress": "Fremont",
+      "comments": "None",
+      "approvalreqd": "Yes",
+      "approvalemail": "mlogs@gmail.com",
+      "vcare": "NA",
+      "cgs": "NA"
+    }
+  ],
+
+  "idhiddenrow": [
+    {
+      "id": "demo1"
+    },
+    {
+      "id": "demo2"
+    },
+    {
+      "id": "demo3"
+    },
+    {
+      "id": "demo4"
+    },
+    {
+      "id": "demo5"
+    }
+  ],
+  "emplogs": [
+    {
+      "from": "Jan-07-2019",
+      "to": "Jan-13-2019",
+      "workinghours": "0.00 hr(s)",
+      "extrahours": "0.00 hr(s)"
+    },
+    {
+      "from": "Jan-07-2019",
+      "to": "Jan-13-2019",
+      "workinghours": "0.00 hr(s)",
+      "extrahours": "0.00 hr(s)"
+    },
+    {
+      "from": "Jan-07-2019",
+      "to": "Jan-13-2019",
+      "workinghours": "0.00 hr(s)",
+      "extrahours": "0.00 hr(s)"
+    },
+    {
+      "from": "Jan-07-2019",
+      "to": "Jan-13-2019",
+      "workinghours": "0.00 hr(s)",
+      "extrahours": "0.00 hr(s)"
+    }
+  ],
+  "modaltable": [
+    {
+      "day": "Mon",
+      "st1": "0",
+      "ot1": "0",
+      "hh": "0",
+      "sh": "0",
+      "pto": "0",
+      "st2": "0",
+      "ot2": "0",
+      "dt2": "0",
+      "com1": "Thisisalonglongsamplecommentsadsaddsadadadsasadsaadsaa",
+      "adj": "0",
+      "com2": "Thisisalonglongsamplecommentsadsaddsadadadsasadsaadsaa"
+    },
+    {
+      "day": "Tue",
+      "st1": "0",
+      "ot1": "0",
+      "hh": "0",
+      "sh": "0",
+      "pto": "0",
+      "st2": "0",
+      "ot2": "0",
+      "dt2": "0",
+      "com1": "Thisisalonglongsamplecommentsadsaddsadadadsasadsaadsaa",
+      "adj": "0",
+      "com2": "Thisisalonglongsamplecommentsadsaddsadadadsasadsaadsaa"
+    },
+    {
+      "day": "Wed",
+      "st1": "0",
+      "ot1": "0",
+      "hh": "0",
+      "sh": "0",
+      "pto": "0",
+      "st2": "0",
+      "ot2": "0",
+      "dt2": "0",
+      "com1": "Thisisalonglongsamplecommentsadsaddsadadadsasadsaadsaa",
+      "adj": "0",
+      "com2": "Thisisalonglongsamplecommentsadsaddsadadadsasadsaadsaa"
+    },
+    {
+      "day": "Thu",
+      "st1": "0",
+      "ot1": "0",
+      "hh": "0",
+      "sh": "0",
+      "pto": "0",
+      "st2": "0",
+      "ot2": "0",
+      "dt2": "0",
+      "com1": "Thisisalonglongsamplecommentsadsaddsadadadsasadsaadsaa",
+      "adj": "0",
+      "com2": "Thisisalonglongsamplecommentsadsaddsadadadsasadsaadsaa"
+    },
+    {
+      "day": "Fri",
+      "st1": "0",
+      "ot1": "0",
+      "hh": "0",
+      "sh": "0",
+      "pto": "0",
+      "st2": "0",
+      "ot2": "0",
+      "dt2": "0",
+      "com1": "Thisisalonglongsamplecommentsadsaddsadadadsasadsaadsaa",
+      "adj": "0",
+      "com2": "Thisisalonglongsamplecommentsadsaddsadadadsasadsaadsaa"
+    },
+    {
+      "day": "Sat",
+      "st1": "0",
+      "ot1": "0",
+      "hh": "0",
+      "sh": "0",
+      "pto": "0",
+      "st2": "0",
+      "ot2": "0",
+      "dt2": "0",
+      "com1": "Thisisalonglongsamplecommentsadsaddsadadadsasadsaadsaa",
+      "adj": "0",
+      "com2": "Thisisalonglongsamplecommentsadsaddsadadadsasadsaadsaa"
+    },
+    {
+      "day": "Sun",
+      "st1": "0",
+      "ot1": "0",
+      "hh": "0",
+      "sh": "0",
+      "pto": "0",
+      "st2": "0",
+      "ot2": "0",
+      "dt2": "0",
+      "com1": "Thisisalonglongsamplecommentsadsaddsadadadsasadsaadsaa",
+      "adj": "0",
+      "com2": "Thisisalonglongsamplecommentsadsaddsadadadsasadsaadsaa"
+    }
+  ]
+}

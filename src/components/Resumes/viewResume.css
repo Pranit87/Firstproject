@@ -1,0 +1,81 @@
+.name-bg-color-custom {
+  background-color: #3d7ab2;
+}
+
+.custom-scroll {
+  overflow-y: scroll;
+  height: 872px;
+}
+
+.hr-remarks {
+  border-top: 1px solid silver;
+}
+
+.custom-font-size-remark {
+  font-size: 14px;
+}
+
+.remark-custom-scroll {
+  overflow-y: scroll;
+  /* overflow-x: hidden; */
+  height: 370px;
+}
+
+.bg-color-save {
+  background-color: #0b7bda !important;
+}
+
+#footer {
+  background-color: #0a3677;
+  opacity: 0.6;
+}
+
+.message-popup-custom {
+  background-color: #7798bb;
+}
+.resize-custom {
+  resize: none;
+}
+.highlight {
+  background-color: yellow;
+}
+.leftIcon {
+  justify-content: flex-start;
+  display: flex;
+  padding: 0px;
+}
+.rightIcon {
+  justify-content: flex-end;
+  display: flex;
+  padding: 0px;
+}
+.col {
+  padding: 0px !important;
+}
+.span-right {
+  padding-right: 20px;
+}
+.span-left {
+  padding-left: 20px;
+}
+
+.all-remarks {
+  height: 430px;
+  overflow: auto;
+}
+.modal-header {
+  background-color: #7798bb;
+  color: white;
+}
+
+.remark-input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  color: black;
+  padding: 0px;
+}
+.loadingRemark {
+  line-height: 360px;
+  width: 360px;
+}

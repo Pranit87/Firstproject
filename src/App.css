@@ -1,38 +1,152 @@
-.App {
-  text-align: center;
+.font {
+  font-family: Calibri;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(17, 97, 165, 1) 3%,
+    rgba(6, 27, 90, 1) 26%,
+    rgba(118, 152, 187, 1) 26%
+  );
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.vats-com-custom {
+  opacity: 0.6;
+}
+
+#navbar {
+  background: #0b7bda;
+  font-size: 18px;
+}
+
+#vats,
+#vats-tab {
+  font-size: 35px;
+  /* font-family: Calibri; */
+  font-weight: bold;
+}
+
+.description-color {
+  color: grey;
+}
+
+.description-font {
+  font-size: large;
+}
+.b-color-search-description {
+  background-color: #0b7bda !important;
+}
+
+.checkbox input[type="checkbox"] {
+  outline: 2px solid rgb(0, 123, 255);
+  margin-left: 1.5em;
+  padding: 0;
+  outline-offset: -1px;
+}
+
+.checkbox-search-result input[type="checkbox"] {
+  outline: 2px solid #d3d3d3;
+  padding: 0;
+  outline-offset: -1px;
+  height: 13px;
+  width: 13px;
+}
+
+.vats-font-size {
+  font-size: 15px;
+}
+
+.search-filters {
+  font-weight: 600;
+  font-size: large;
+}
+.search-result-background {
+  background: #f1f1f1;
+}
+
+#page-1 {
+  background-color: #037cdb;
+}
+
+#page-2,
+#page-3,
+#arrow {
+  background-color: #e9e9e9;
+}
+
+#arrow {
+  padding-left: 15px;
+}
+
+.rounded-circle-custom {
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  padding-left: 14px !important;
+  padding-right: 14px !important;
+}
+
+#footer {
+  background-color: #0a3677;
+  opacity: 0.6;
+  margin-top: 20px;
+}
+
+.source-color {
+  background-color: #419be4 !important;
+}
+
+/* @media screen and (min-width: 768px) {
+  .content {
+    height: 100%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .modal-dialog {
+    left: 17%;
+    top: 15%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+} */
+
+/* .popover {
+  max-width: 600px !important;
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+}
+.popover-body {
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+} */
+
+/* .hr-closures {
+  border-top: 6px solid #f2f2f2;
+} */
+
+.b-color-search-description {
+  background-color: #0b7bda !important;
+}
+
+.tech-back-color {
+  background-color: #f1f1f1;
+}
+
+.dice-font-size {
+  font-size: 15px;
+}
+
+.border-right {
+  border-right: 2px solid blue;
+}
+
+.hr-jobs {
+  height: 10px;
+  border: 0;
+  box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  display: block;
 }

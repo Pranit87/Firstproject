@@ -1,0 +1,120 @@
+.message-popup-custom {
+  background-color: #7798bb;
+}
+
+.team-members-image {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  margin: auto;
+}
+
+.sg-back-color {
+  background-color: #cccccc;
+}
+
+.add-team-table-bg-color {
+  background-color: #f1f1f1;
+}
+
+.view-profile-tabs {
+  background-color: #528aba;
+}
+
+.target-color {
+  background-color: #0a3677;
+}
+.lead-image {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin: auto;
+}
+
+.vl-profile-border {
+  border: 3px solid #ecf5fc;
+}
+
+.clients-bg-color {
+  background-color: #ecf5fc;
+}
+
+.containerAcronym {
+  display: flex;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  background: #cccccc;
+}
+
+.name_acronym-performer {
+  font-size: 18px;
+}
+
+.loader-height {
+  line-height: 20% !important;
+}
+
+.t-container_acronym-performer {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #cccccc;
+  margin: auto;
+  box-shadow: 0 0 5px #cccccc;
+}
+.t-name_acronym-performer {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  line-height: 2.8;
+}
+
+.vl-profile {
+  border: 2px solid lightgrey;
+}
+
+.heading-color {
+  color: gray;
+}
+
+.display-grid {
+  display: grid;
+  font-family: calibri;
+}
+.no-client {
+  line-height: 100px;
+  text-align: center;
+}
+
+.lead-name {
+  opacity: 0.8;
+  color: #000000;
+  font-family: Calibri;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+.lead-data {
+  color: #000000;
+  font-family: Calibri;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+.client-data {
+  color: #000000;
+  font-family: Calibri;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.modal.show .modal-dialog {
+  max-width: fit-content;
+}

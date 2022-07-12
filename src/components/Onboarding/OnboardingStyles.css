@@ -1,0 +1,24 @@
+.VMS {
+  color: aliceblue;
+  font-size: medium;
+  margin-left: 50px;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+#inner-table {
+  height: 575px;
+  width: 1300px;
+}
+
+.white-container {
+  height: 500px;
+  width: 1280px;
+  background-color: #ffffff;
+  box-shadow: 0 0 16px 3px rgba(0, 0, 0, 0.15);
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 5px;
+}

@@ -1,0 +1,73 @@
+.job-table-head-bg-color {
+  background: #525252 !important;
+  border: #525252 solid 2px;
+}
+
+.job-table-head-bg-color-1 {
+  background: #eae8f9;
+}
+
+.search-input-icon {
+  font-family: FontAwesome;
+}
+
+.tableWrapper {
+  max-height: 470px;
+  overflow-y: auto;
+}
+
+.clearFilter:hover {
+  text-decoration: underline;
+}
+
+.loader {
+  line-height: 335px;
+}
+.pagination li a {
+  padding: 9px 14px;
+  margin: 0 5px;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+
+.pagination li.activePagination a {
+  background-color: #057bff;
+  color: #ffffff;
+  outline: none;
+}
+
+.resumeWrapper {
+  max-height: 470px;
+  font-size: 14px;
+}
+
+.noResume {
+  text-align: center;
+  line-height: 24;
+}
+.selectedRow {
+  background-color: #dddddd;
+}
+
+.fixedContainer {
+  min-height: 400px;
+  font-size: 16px;
+  line-height: 26;
+}
+.table td svg.viewResumeIcon {
+  margin: 0;
+  margin-left: 15px;
+  display: inline-block;
+  color: #666;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+.loadingSearchItem {
+  line-height: 100px;
+}
+.resumeWrapper .page {
+  display: block;
+}

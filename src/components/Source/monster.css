@@ -1,0 +1,187 @@
+/*********************************************************************
+ *        Copyright of Vertisystem Inc.
+ *        2020
+ *
+ * Project: Applicant Tracking System
+ *
+ * Date           Branch/Issue Number           Description
+ * -------------------------------------------------------
+ * 05-Oct-2020    -                             Created
+ * 08-Oct-2020    MONSTER_DICE_DOWNLOAD_STABLE  added pagination css
+ *
+ *
+ *
+ *********************************************************************/
+
+.line {
+  height: 6px;
+  background: #f1f1f1;
+}
+
+.col-1 {
+  padding: 0px !important;
+  flex: 0 0 3.333333% !important;
+  max-width: 3.333333% !important;
+}
+
+/* .col-2 {
+  flex: 0 0 5.666667% !important;
+  max-width: 5.666667% !important;
+} */
+
+.form-check-input {
+  box-sizing: border-box;
+  height: 18px;
+  width: 18px;
+  border: 2px solid #cccccc;
+  background-color: #fcfbfb;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1252px !important;
+  }
+}
+
+.relevance {
+  height: 57px;
+  width: 57px;
+  background-color: #2e8538;
+  border-radius: 10px;
+}
+
+.box-text {
+  height: 34px;
+  width: 35px;
+  color: #ffffff !important;
+  font-family: Calibri;
+  font-size: 24px !important;
+  font-weight: bold;
+  letter-spacing: 0;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 4px;
+}
+
+.box-text2 {
+  color: #ffffff !important;
+  font-family: Calibri;
+  font-size: 24px !important;
+}
+
+.source-color {
+  background-color: #419be4 !important;
+}
+
+@media screen and (min-width: 768px) {
+  /* .modal-dialog {
+    left: 17%;
+    top: 15%;
+  } */
+  .arrow-right-sourcing {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid white;
+    position: absolute;
+    left: 100%;
+    top: 21%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .vl {
+    width: 1px;
+    height: 50px;
+    border: 1px inset;
+    justify-content: center;
+    color: silver;
+    opacity: 0.8;
+  }
+}
+
+.hr {
+  border-top: 6px solid #f2f2f2 !important;
+}
+
+.table-sm td,
+.table-sm th {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  font-family: Calibri;
+  font-size: 14px;
+}
+
+.typo {
+  font-family: Calibri;
+  font-size: 14px;
+}
+
+.table-source-monster {
+  width: 40% !important;
+}
+
+.center {
+  margin: auto;
+  display: block;
+  width: 200px;
+}
+.match98 {
+  background-color: #2e8538;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+/* @media (min-width: 992px) {
+  .col-lg {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 45% !important;
+    padding-right: 0px !important;
+  }
+
+  .flex-shrink {
+    padding: 1rem !important;
+  }
+
+  .row {
+    margin-left: 30px !important;
+  }
+} */
+
+/*
+* Pagination css
+*/
+.page-link {
+  text-align: center;
+  font-weight: 700;
+}
+
+.monster-row {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.check-word {
+  word-wrap: break-word;
+}
+.leftIcon {
+  justify-content: flex-start;
+  display: flex;
+  padding: 0px;
+}
+.rightIcon {
+  justify-content: flex-end;
+  display: flex;
+  padding: 0px;
+}
+
+.index {
+  z-index: 2;
+}
+.indexs {
+  z-index: 3;
+}

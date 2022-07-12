@@ -1,0 +1,12 @@
+version: '3'
+services:
+  react-ui:
+    container_name: vats_ui
+    build:
+      context: ./
+    ports:
+      - "4040:3000"
+    stdin_open: true
+    volumes:
+       - ./:/usr/src/app/vats_ui
+       - /usr/src/app/vats_ui/node_modules

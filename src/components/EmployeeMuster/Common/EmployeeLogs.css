@@ -1,0 +1,35 @@
+/* Employee Logs -> modal -> Comment Columns  */
+
+.overflow-cell {
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+    padding: 15px;
+  }
+
+  .job-table-head-bg-color {
+    background: #525252 !important;
+    border: #525252 solid 2px;
+  }
+
+/* .hover {
+  background-color: #fff;
+  background: white;
+} */
+.hours {
+  background: #E2EBFC;
+}
+.addhours {
+  background: #FFECEC;
+}
+.expenses {
+  background: #C5C5C5;
+}
+.workhours {
+  color: #7ACE4C;
+}
+.extrahours {
+  color: #FFBB44;
+}

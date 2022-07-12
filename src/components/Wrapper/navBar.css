@@ -1,0 +1,101 @@
+.dropdown-toggle {
+  white-space: nowrap;
+  height: 53px;
+  font-size: 30px;
+  color: white;
+}
+
+.border {
+  border-style: dashed !important;
+}
+
+.addresume {
+  display: none;
+}
+
+.addresume-scroll {
+  overflow-y: auto;
+  max-height: 250px;
+}
+.drop-container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: 4px dashed #4aa1f3;
+}
+.drop-message {
+  text-align: center;
+  color: #4aa1f3;
+  font-family: Arial;
+  font-size: 20px;
+}
+.file-input {
+  display: none;
+}
+
+/* css for add requirement */
+
+.required:after {
+  content: " *";
+  color: red;
+}
+
+.hr-addrequirement {
+  border: 1px solid silver;
+}
+
+.plus-icon {
+  color: #105ca0;
+  font-family: Calibri;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 36px;
+  cursor: pointer;
+  padding: 2px 0.75rem;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.plus-icon:hover {
+  background-color: lightgray;
+}
+.pop-content {
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.25);
+  padding: 0 !important;
+}
+.pop-body {
+  display: grid;
+  width: 160px;
+}
+.popover {
+  border-radius: 0 !important;
+}
+
+.add-resume-modal-size {
+  min-width: 400px;
+}
+
+.add-resume-spinner-background {
+  background: transparent;
+}
+
+.border-customs {
+  border: 1px solid #dee2e6;
+  height: 80px;
+  line-height: 56px;
+}
+.is-dragover {
+  border: 1px dashed #105ca0;
+  background-color: lightblue;
+  color: #ffffff;
+}
+
+.cred {
+  font-size: 17px;
+}
+
+#collasible-nav-dropdown {
+  font-size: 19px;
+}

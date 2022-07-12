@@ -1,0 +1,15 @@
+.hiddenRow {
+  padding: 0 !important;
+}
+.pagination li a {
+  padding: 9px 14px;
+  margin: 0 5px;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+
+.pagination li.activePagination a {
+  background-color: #057bff;
+  color: #ffffff;
+  outline: none;
+}

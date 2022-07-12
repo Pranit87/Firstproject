@@ -1,0 +1,115 @@
+.text {
+  font: bolder;
+}
+
+#exampleFormControlSelect1 {
+  box-sizing: border-box;
+  height: 38px;
+  width: 497px;
+  border: 2px solid #cccccc;
+  background-color: #ffffff;
+}
+
+.form-group {
+  margin: 40px;
+  height: 70px;
+}
+
+.bottom-box {
+  height: 406px;
+  width: 672px;
+  background-color: #ffffff;
+  box-shadow: 0 0 9px 15px rgba(0, 0, 0, 0.09);
+  margin: 10px;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 5px;
+  color: dodgerblue;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.b {
+  height: 406px;
+  width: 672px;
+  background-color: #ffffff;
+  box-shadow: 0 0 9px 15px rgba(0, 0, 0, 0.09);
+  margin: 10px;
+  margin-top: 30px;
+  margin-right: 35px;
+  border-radius: 5px;
+  color: dodgerblue;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.flex-direction {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text2 {
+  margin: 30px;
+}
+
+.description {
+  font-size: smaller;
+  color: black;
+  margin: 20px;
+}
+
+.title {
+  font-weight: 300;
+  color: black;
+  margin-left: 20px;
+}
+
+.d-section {
+  margin-left: 20px;
+  font-size: small;
+  color: rgba(0, 0, 0, 0.644);
+}
+
+.flex-direction-box2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#NEW-BTN {
+  margin-left: 5px;
+  margin-top: 100px;
+}
+
+.BUTTON2 {
+  margin-left: 35px;
+}
+
+.second-text {
+  color: black;
+  font-weight: 200;
+  font-size: small;
+  margin-right: 70px;
+}
+
+.code {
+  color: black;
+  font-weight: bold;
+}
+
+.flex-direction-box3 {
+  display: flex;
+  margin-left: 35px;
+}
+
+#save_button {
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.BUTTONBG {
+  margin-left: 20px;
+}
+
+.down_button {
+  margin-top: 60px;
+}

@@ -1,0 +1,89 @@
+/*********************************************************************
+ *        Copyright of Vertisystem Inc.
+ *        2020
+ *
+ * Project: Applicant Tracking System
+ *
+ * Date           Branch/Issue Number           Description
+ * -------------------------------------------------------
+ * 05-Oct-2020    -                             Created
+ * 08-Oct-2020    MONSTER_DICE_DOWNLOAD_STABLE  added pagination css
+ *
+ *
+ *
+ *********************************************************************/
+
+.sg-back-color {
+  background-color: #cccccc;
+}
+
+.sg-back {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin: auto;
+}
+
+/* .text-highlight-color {
+  background-color: #fbfb5f;
+} */
+
+.tech-back-color {
+  background-color: #f1f1f1;
+  /* max-width: 288px;
+  flex-basis: 0;
+  flex-grow: 1;
+  padding-right: 15px;
+  padding-left: 15px; */
+}
+
+.dice-font-size {
+  font-size: 15px;
+  /* padding-top: 25px; */
+}
+
+/* @media (min-width: 992px) {
+  .w-100 {
+    padding: 2px;
+  }
+} */
+
+.container_acronym {
+  width: 70px !important;
+  height: 70px !important;
+  border-radius: 50% !important;
+  background: #cccccc;
+}
+.name_acronym {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  line-height: 2.8;
+}
+
+/*
+* Pagination css
+*/
+.page-link {
+  text-align: center;
+  font-weight: 700;
+}
+
+.dice-row {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.no-data {
+  text-align: center;
+  line-height: 20px;
+}
+
+.index {
+  z-index: 2;
+}
+.skillsTag {
+  margin-left: 130px !important;
+}

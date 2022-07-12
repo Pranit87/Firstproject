@@ -1,22 +1,22 @@
-import React from 'react';
-import {Route,Switch} from "react-router-dom";
-import About from './Components/About';
-import Contact from './Components/Forms';
-import Home from './Components/Home';
-
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import AppPage from "../src/components/AppPage";
+import "./App.css";
+import { AlertProvider } from "./contexts/AlertContext";
+import { UsersProvider } from "./Services/usersService";
 
 const App = () => {
   return (
-    <div>
-      <Switch>
-        <Route path = "/About" component = {About}/>
-
-      </Switch>
-      {/* <About/>
-      <Contact/> */}
-
+    <div className="App">
+      <AlertProvider>
+        <UsersProvider>
+          <BrowserRouter>
+            <AppPage />
+          </BrowserRouter>
+        </UsersProvider>
+      </AlertProvider>
     </div>
   );
-}
- 
+};
+
 export default App;

@@ -1,0 +1,81 @@
+.fontTitle {
+  max-height: 470px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.inputStyle {
+  width: 180px;
+  color: brown;
+  font-size: 50px;
+}
+
+.mySelect__value-container {
+  height: 60px;
+  border: 0px;
+  overflow: auto !important;
+}
+
+.customContainer {
+  margin: 0% !important;
+  max-width: 100% !important;
+}
+
+.customTableNameFont {
+  font-size: medium;
+  font-weight: 600;
+}
+
+.colMaxHeight {
+  max-height: 310px;
+}
+.divOverflow {
+  height: 100%;
+  overflow: auto;
+}
+
+.innerbtn {
+  height: 12px;
+  width: 73px;
+  color: #000000;
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.new-sec {
+  height: 250px;
+  width: 1470px;
+  background-color: #ffffff;
+  box-shadow: 0 0 2px #000000;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.innerbtn2 {
+  height: 12px;
+  width: 46px;
+  color: #ffffff;
+  font-family: Calibri;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.gap {
+  margin-top: 5px;
+}
+
+.head-bg {
+  height: 50px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.77);
+  color: #ffffff;
+}
+
+.height-row {
+  line-height: 35px;
+}

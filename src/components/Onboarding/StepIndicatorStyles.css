@@ -1,0 +1,78 @@
+.VMS {
+  color: aliceblue;
+  font-size: medium;
+  margin-left: 50px;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+#inner-table {
+  height: 575px;
+  width: 1300px;
+}
+
+.white-container {
+  height: 510px;
+  width: 1280px;
+  background-color: #ffffff;
+  box-shadow: 0 0 16px 3px rgba(0, 0, 0, 0.15);
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+.stepIndicator {
+  height: 155px;
+  width: 1300px;
+  background-color: rgba(57, 120, 182, 0.904);
+  opacity: 0.6;
+}
+
+.insideclass {
+  display: flex;
+}
+
+.stepIndicator {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.stepIndicator hr {
+  width: 100px;
+  background: #fafafa;
+  height: 2px;
+  border-width: 0;
+}
+
+.stepIndicator hr:last-of-type {
+  display: none;
+}
+
+.stepIndicator a {
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  color: lightblue;
+  box-shadow: 0px 3px 12px rgb(160, 181, 238);
+  border-radius: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* cursor: pointer; */
+  cursor: default;
+  user-select: contain;
+  position: relative;
+  font-weight: bold;
+  font-size: 22px;
+  transition: all 600ms ease-in-out;
+  margin: 50px;
+}
+
+.stepIndicator .activeLink {
+  background: lightblue;
+  color: #fff;
+}

@@ -1,0 +1,35 @@
+/* css for edit candidate */
+
+.required:after {
+  content: " *";
+  color: red;
+}
+
+.hr-addrequirement {
+  border: 1px solid silver;
+}
+
+.form-control-custom {
+  margin-bottom: 15px;
+}
+
+.experience-row {
+  display: flex;
+}
+
+.experience-input {
+  margin-left: -13px;
+  text-align: center;
+  background-color: #7496b8 !important;
+  color: white !important;
+}
+.loaders {
+  display: flex;
+  justify-content: center;
+}
+
+.button-custom {
+  border-radius: 10px !important;
+  padding: 10px 25px !important;
+  font-size: 16px !important;
+}

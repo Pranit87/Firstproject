@@ -1,0 +1,119 @@
+#submitted-li > .show {
+  background-color: white !important;
+  color: #1161a5 !important;
+}
+#sourced-li > .show {
+  background-color: white !important;
+  color: #1161a5 !important;
+}
+#recruiter-li > .show {
+  background-color: white !important;
+  color: #1161a5 !important;
+}
+#interview-li > .show {
+  background-color: white !important;
+  color: #1161a5 !important;
+}
+#log-li > .show {
+  background-color: white !important;
+  color: #1161a5 !important;
+}
+
+#offers-li > .show {
+  background-color: white !important;
+  color: #1161a5 !important;
+}
+
+#master-li > .show {
+  background-color: white !important;
+  color: #1161a5 !important;
+}
+#shortlisted-li > .show {
+  background-color: white !important;
+  color: #1161a5 !important;
+}
+
+#submitted-tab,
+#shortlisted-tab,
+#sourced-tab,
+#log-tab,
+#interviews-tab,
+#recruiters-tab,
+#offers-tab,
+#master-tab {
+  background-color: #2c548d;
+  font-family: Calibri;
+  font-size: 20px;
+  margin-bottom: 1px;
+}
+
+.job-description-font-custom {
+  font-size: 18px;
+}
+.contact-text-custom {
+  color: #0b7bda;
+}
+
+.change-table-hover-color-sourced.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  background-color: white !important;
+}
+
+.bg-color-submit-tab {
+  background-color: #f1f1f1;
+}
+
+.hr-resume-detail {
+  border-top: 2px solid #f2f2f2;
+}
+
+textarea {
+  resize: none;
+}
+
+.scroll-job-details {
+  overflow-y: auto;
+}
+
+.spinnerCentered {
+  display: block !important;
+  margin: auto;
+}
+
+.cardWrapper {
+  display: flex;
+  width: 30%;
+  margin: 0 20px 20px;
+}
+
+.row .cardWrapper .card {
+  width: 100%;
+}
+
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+#reqStatus {
+  padding-top: 11px;
+  padding-bottom: 10px;
+}
+.viewResumeIcon {
+  color: #666;
+}
+.viewThumbsUpIcon {
+  color: #666;
+  margin-left: 0px;
+  margin-right: 15px !important;
+  display: inline-block !important;
+}
+select {
+  width: 120px;
+  height: 48px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("/images/down-arrow.png") no-repeat right 10px center;
+}
